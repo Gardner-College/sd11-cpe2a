@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="zdVXIlEEotyR9oT7PpT9">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-48" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="shopping cart&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="160" x="110" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-49" parent="-vbRYegxKxoqd-rvd7nl-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;-cartid: int&lt;br&gt;-productid: int&lt;br&gt;-quantity: int&lt;br&gt;-dateAdded: int&lt;/span&gt;" vertex="1">
+          <mxGeometry height="84" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-50" parent="-vbRYegxKxoqd-rvd7nl-48" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-51" parent="-vbRYegxKxoqd-rvd7nl-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;+addCartitemo&lt;br&gt;+updateQuantityO&lt;br&gt;+viewCartDetailsO&lt;br&gt;+checkOuto&lt;/span&gt;" vertex="1">
+          <mxGeometry height="82" width="160" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-53" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;customer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="170" x="310" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-54" parent="-vbRYegxKxoqd-rvd7nl-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-customerName: string&lt;br&gt;&lt;span&gt;-address: string&lt;br&gt;&lt;/span&gt;- email: string&lt;/span&gt;" vertex="1">
+          <mxGeometry height="84" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-55" parent="-vbRYegxKxoqd-rvd7nl-53" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-56" parent="-vbRYegxKxoqd-rvd7nl-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-creditCardinfo: string&lt;br&gt;-shippinginfo: string&lt;br&gt;-accountBalance: float&lt;br&gt;+register #login®&lt;br&gt;+updateProfileO&lt;/span&gt;" vertex="1">
+          <mxGeometry height="122" width="170" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-57" edge="1" parent="1" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.012;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" target="-vbRYegxKxoqd-rvd7nl-54" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="114" />
+            </Array>
+            <mxPoint x="189.5" y="260" as="sourcePoint" />
+            <mxPoint x="189.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-61" edge="1" parent="1" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="394.5" y="340" />
+            </Array>
+            <mxPoint x="394.5" y="450" as="sourcePoint" />
+            <mxPoint x="394.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-62" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;orders&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="180" x="320" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-63" parent="-vbRYegxKxoqd-rvd7nl-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-orderid: int&lt;br&gt;-dateCreated: string dateshipped: string customerName: string customerld: string&lt;br&gt;-status: string&lt;br&gt;-shippingid: string&lt;/span&gt;" vertex="1">
+          <mxGeometry height="134" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-64" parent="-vbRYegxKxoqd-rvd7nl-62" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-65" parent="-vbRYegxKxoqd-rvd7nl-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;+placeOrderO&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32" width="180" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-66" edge="1" parent="1" source="-vbRYegxKxoqd-rvd7nl-68" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="-vbRYegxKxoqd-rvd7nl-63" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="380" />
+              <mxPoint x="590" y="380" />
+              <mxPoint x="580" y="380" />
+              <mxPoint x="560" y="380" />
+              <mxPoint x="560" y="540" />
+            </Array>
+            <mxPoint x="676.04" y="580" as="sourcePoint" />
+            <mxPoint x="500.00000000000006" y="577.9480000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-67" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;shipping info&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="600" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-68" parent="-vbRYegxKxoqd-rvd7nl-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-shippingld: int&lt;br&gt;-shipping Type: string&lt;br&gt;-shippingCost: int&lt;br&gt;-shippingRegionid: int&lt;/span&gt;" vertex="1">
+          <mxGeometry height="84" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-69" parent="-vbRYegxKxoqd-rvd7nl-67" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-70" parent="-vbRYegxKxoqd-rvd7nl-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;+updateShippinginfo0&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32" width="180" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-72" edge="1" parent="1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="90" />
+              <mxPoint x="520" y="30" />
+            </Array>
+            <mxPoint x="480" y="90" as="sourcePoint" />
+            <mxPoint x="570" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-73" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;user&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="570" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-74" parent="-vbRYegxKxoqd-rvd7nl-73" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-userld: string&lt;br&gt;-password: string&lt;br&gt;-loginStatus: string&lt;br&gt;-registerDate: date &lt;/span&gt;" vertex="1">
+          <mxGeometry height="84" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-75" parent="-vbRYegxKxoqd-rvd7nl-73" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-76" parent="-vbRYegxKxoqd-rvd7nl-73" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;+verifyLogin0: bool&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32" width="180" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-77" edge="1" parent="1" source="-vbRYegxKxoqd-rvd7nl-79" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1.016;entryY=0.926;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.011;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="510" />
+              <mxPoint x="680" y="580" />
+              <mxPoint x="680" y="590" />
+              <mxPoint x="667.12" y="590" />
+              <mxPoint x="587.12" y="590" />
+            </Array>
+            <mxPoint x="810" y="510" as="sourcePoint" />
+            <mxPoint x="500.0000000000001" y="590.0839999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-78" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; text-align: start; white-space-collapse: preserve;&quot;&gt;Order Details&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="180" x="820" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-79" parent="-vbRYegxKxoqd-rvd7nl-78" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;-orderid: int&lt;br&gt;-productid: int&lt;br&gt;-productName: string&lt;br&gt;-quality: int&lt;br&gt;-unitCost: float&lt;br&gt;-subtotal: float&lt;/span&gt;" vertex="1">
+          <mxGeometry height="134" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-80" parent="-vbRYegxKxoqd-rvd7nl-78" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-vbRYegxKxoqd-rvd7nl-81" parent="-vbRYegxKxoqd-rvd7nl-78" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space-collapse: preserve;&quot;&gt;+calcPrice&lt;/span&gt;" vertex="1">
+          <mxGeometry height="32" width="180" y="168" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
